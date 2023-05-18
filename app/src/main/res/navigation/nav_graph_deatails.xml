@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_deatails"
+    app:startDestination="@id/show_Fragment_deatalis">
+
+
+    <fragment
+        android:id="@+id/statistecFragment"
+        android:name="com.example.stor.home.proudects.product_deatails.show_statistc_one.StatistecFragment"
+        android:label="fragment_statistec"
+        tools:layout="@layout/fragment_statistec" />
+    <fragment
+        android:id="@+id/show_Fragment_deatalis"
+        android:name="com.example.stor.home.proudects.product_deatails.show_details.Show_Fragment_deatalis"
+        android:label="fragment_show__deatalis"
+        tools:layout="@layout/fragment_show__deatalis" />
+    <fragment
+        android:id="@+id/statistic_All_Fragment"
+        android:name="com.example.stor.home.proudects.product_deatails.show_all_statistic.Statistic_All_Fragment"
+        android:label="fragment_statistic__all_"
+        tools:layout="@layout/fragment_statistic__all_" /></navigation>

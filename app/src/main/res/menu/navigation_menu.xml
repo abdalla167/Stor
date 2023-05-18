@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Show_All_Proudect_Fragemt"
+        android:title="@string/fragment_new_Product"
+        />
+    <item
+        android:id="@+id/mainFragmentHaveTaresha"
+        android:title="@string/fragment_Tarashea"
+        />
+    <item
+        android:id="@+id/MainFragmentHaveViewPgaer"
+        android:title="@string/fragment_gard"
+        />
+    <item
+        android:id="@+id/OnlineFragementData"
+        android:title="@string/updateDate"
+        />
+</menu>

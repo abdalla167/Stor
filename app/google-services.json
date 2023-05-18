@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "723675944125",
+    "firebase_url": "https://newtot-ddc26.firebaseio.com",
+    "project_id": "newtot-ddc26",
+    "storage_bucket": "newtot-ddc26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723675944125:android:4b0df50c137f7f11",
+        "android_client_info": {
+          "package_name": "com.example.new_tot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723675944125-kq1vt6dmhdt53v1ur3ji8lev9d8s354n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.new_tot",
+            "certificate_hash": "b238e3b0f51873202e1fd0d437917c3ffd201576"
+          }
+        },
+        {
+          "client_id": "723675944125-bs053hr1tgl7mi1nld14bda7o4j83flv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9eW_wczvku8SjQtOaQndnsvQpU64zzHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723675944125-bs053hr1tgl7mi1nld14bda7o4j83flv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723675944125:android:eb247cf94ad0d74dac53d4",
+        "android_client_info": {
+          "package_name": "com.example.stor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723675944125-bs053hr1tgl7mi1nld14bda7o4j83flv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9eW_wczvku8SjQtOaQndnsvQpU64zzHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723675944125-bs053hr1tgl7mi1nld14bda7o4j83flv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Stor</string>
+    <string name="fragment_gard">اضافه جرد يويمي</string>
+    <string name="fragment_Tarashea">تاريشا</string>
+    <string name="fragment_new_Product">عرض منتجات</string>
+    <string name="fragment_detalis">تفاصيل المنتج</string>
+    <string name="fragment_statistic">احصائيات المنتج</string>
+    <string name="fragment_all_statistic">احصائيات المنتجات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="updateDate">تحديث البيانات</string>
+
+</resources>

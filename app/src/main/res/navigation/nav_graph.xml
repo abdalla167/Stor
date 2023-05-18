@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Show_All_Proudect_Fragemt">
+
+    <fragment
+        android:id="@+id/Show_All_Proudect_Fragemt"
+        android:name="com.example.stor.home.proudects.show_all_product.view.Show_All_Proudect_Fragemt"
+        android:label="fragment_show__all__proudect__fragemt"
+        tools:layout="@layout/fragment_show__all__proudect__fragemt" >
+
+        <action
+            android:id="@+id/action_Show_All_Proudect_Fragemt_to_MainActivity_Product_deatalis"
+            app:destination="@id/MainActivity_Product_deatalis" />
+    </fragment>
+    <fragment
+        android:id="@+id/MainFragmentHaveViewPgaer"
+        android:name="com.example.stor.home.gard.view.MainFragmentHaveViewPgaer"
+        android:label="fragment_gard__f_ragment"
+        tools:layout="@layout/fragment_main_have_view_pgaer" >
+
+    </fragment>
+
+    <activity
+        android:id="@+id/MainActivity_Product_deatalis"
+        android:name="com.example.stor.home.proudects.product_deatails.view.MainActivity_Product_deatalis"
+        android:label="Product Details"
+        tools:layout="@layout/activity_main_product_deatalis">
+
+        <argument
+            android:name="ID_Product"
+            app:argType="integer" />
+
+    </activity>
+    <fragment
+        android:id="@+id/mainFragmentHaveTaresha"
+        android:name="com.example.stor.home.taresha.view.MainFragmentHaveTaresha"
+        android:label="fragment_main_have_taresha"
+        tools:layout="@layout/fragment_main_have_taresha" />
+    <fragment
+        android:id="@+id/OnlineFragementData"
+        android:name="com.example.stor.db.online.view.OnlineFragementData"
+        android:label="fragment_online_fragement_data"
+        tools:layout="@layout/fragment_online_fragement_data" />
+
+
+</navigation>
+
